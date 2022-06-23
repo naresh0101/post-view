@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* background: #ffffff !important; */
+    font-family: sans-serif;
+}
+p{
+    font-size: 0.8em;
+}
+
+/* ================== text  */
+.primary-text {}
+
+.secondary-text {
+    color: #bebebe;
+}
+.br-10px{
+    color: #fff;
+}
+.icon {
+    height: 1rem;
+    width: 1rem;
+    color: gray;
+}
+
+/* ================== cards */
+.card {
+    border-radius: 10px;
+    background: #ffffff;
+    box-shadow: 0px 1px 11px #d0d0d0;
+}
+
+/*  ================== input */
+input {
+    height: 2rem;
+    width: 100%;
+    border: none;
+    width: 100%;
+    outline: none;
+}
+
+
+@media screen and (max-width: 524px) {
+    .responsive-input{
+        width: 200px;
+    }
+}
+.input-wrapper {
+    margin-top: 4px;
+    border-radius: 10px;
+    padding: 0 10px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    border: 1px solid #bebebe;
+}
+
+/* ================= padding */
+.p-1rem {
+    padding: 1rem;
+}
+.p-10px{
+    padding: 10px;
+}
+.pb-10px {
+    padding-bottom: 10px;
+}
+
+.pt-10px {
+    padding-top: 10px;
+}
+
+.pl-10px {
+    padding-left: 10px;
+}
+
+.pr-10px {
+    padding-right: 10px;
+}
+
+/* ================= margin */
+.m-1rem {
+    margin: 1rem;
+}
+.m-10px{
+    margin: 10px;
+}
+.mb-10px {
+    margin-bottom: 10px;
+}
+
+.mt-10px {
+    margin-top: 10px;
+}
+
+.ml-10px {
+    margin-left: 10px;
+}
+
+.mr-10px {
+    margin-right: 10px;
+}
+
+
+/* ================== justify flex */
+.flex{
+display: flex;
+}
+
+.justify-between{
+    justify-content:space-between ;
+}
+
+.align-items-center{
+    align-items: center;
+}
+
+/* ==================== images avatar */
+.avatar{
+    height: 2rem;
+    width: 2rem;
+    border-radius: 10px;
+ object-fit: contain;
+}
+
+/*  ============ post  */
+.allpost-container{
+    padding: 0 10px;
+    overflow-y: hidden;
+	display: flex;
+    flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	/* background: hsl(218deg 50% 91%); */
+	/* height: 100vh; */
+}
+
+/* ============== shadow */
+.br-10px{
+ border-radius: 10px;   
+}
+
+.main{
+    margin-top: 4rem;
+}
