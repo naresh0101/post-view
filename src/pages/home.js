@@ -1,11 +1,13 @@
+import { useContext } from "react";
+import { AppContext } from "../context";
 import HomeLayout from "../layout/home";
 
-
-
 const HomePage = () => {
-    return (
+  const { posts } = useContext(AppContext)
+
+  return (
         <div>
-          <HomeLayout />
+          <HomeLayout posts={posts} />
         </div>
     )
 }

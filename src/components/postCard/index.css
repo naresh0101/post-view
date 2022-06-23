@@ -8,9 +8,6 @@
     justify-content: start;
     align-items: center;
 }
-.location{
-    font-size: 16px;
-}
 .colored-bg{
     min-height: 200px;
     display: flex;

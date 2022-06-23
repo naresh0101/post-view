@@ -28,6 +28,10 @@ const Login = () => {
                             <input type={'password'} placeholder='your-password' className='pl-10px'  />
                         </div>
                     </div>
+                    <br/>
+                    <button className='login-btn'>
+                        Login
+                    </button>
                 </div>
             </div>
         </div>

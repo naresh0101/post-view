@@ -1,7 +1,7 @@
 .navbar{
     position: fixed;
     overflow: hidden;
-    padding: 10px;
+    /* padding: 10px; */
     width: 100%;
     background: #fff;
     /* height: 4rem; */
@@ -16,5 +16,11 @@
     height: 3rem;
 }
 .search-input{
-    width: 440px;
+    width: 480px;
+}
+
+.icon-btn{
+    border: none;
+    outline: none;
+    background: transparent;
 }

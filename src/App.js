@@ -1,9 +1,12 @@
 import Routeing from "./routeing";
 import './assets/styles/index.css';
+import { AppProvider } from "./context";
 
 function App() {
   return (
-    <Routeing />
+    <AppProvider>
+      <Routeing />
+    </AppProvider>
   );
 }
 

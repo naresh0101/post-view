@@ -36,7 +36,7 @@ const Postcard = ({ post }) => {
                 <div className='posted-by-user-info-wrapper'>
                     <img className='avatar' src='https://mintspace-media.fra1.digitaloceanspaces.com/wp-content/uploads/2022/01/18140402/FI7CtuCVgAMH2sD_mirror.jpg' alt='avatr' />
                     <div className='pl-10px'>
-                        <p className='primary-text'>naresh0101</p>
+                        <p className='primary-text'><b>naresh0101</b></p>
                         <p> {post?.title}</p>
                     </div>
                 </div>
@@ -48,25 +48,17 @@ const Postcard = ({ post }) => {
             </div>
 
             <div
-             style={{ background: hexToRGB(getRandomBG(), 0.50) }}
-            className='p-10px br-10px colored-bg'>
+                style={{ background: hexToRGB(getRandomBG(), 0.50) }}
+                className='p-10px br-10px colored-bg'>
                 <h3>
                     {post?.body}
                 </h3>
             </div>
-            <div className='flex justify-between align-items-center'>
-                <div className='login-input input-wrapper mt-10px responsive-input'>
-                    <svg xmlns="http://www.w3.org/2000/svg" className="icon" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                        <path strokeLinecap="round" strokeLinejoin="round" d="M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-3l-4 4z" />
-                    </svg>
-                    <input type={'text'} placeholder='Add your comment' className='pl-10px' />
-                </div>
-                <div className='flex pt-10px'>
-                        <svg xmlns="http://www.w3.org/2000/svg" className="icon" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                            <path strokeLinecap="round" strokeLinejoin="round" d="M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-3l-4 4z" />
-                        </svg>
-                        <p className='pl-10px'>2.2k</p>
-                </div>
+            <div className='login-input input-wrapper mt-10px responsive-input'>
+                <svg xmlns="http://www.w3.org/2000/svg" className="icon" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-3l-4 4z" />
+                </svg>
+                <input type={'text'} placeholder='Add your comment' className='pl-10px' />
             </div>
         </div>
     )

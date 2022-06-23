@@ -4,10 +4,10 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	
 	/* background: hsl(218deg 50% 91%); */
 	height: 100vh;
 }
+
 .logo{
 	width: 10rem;
 	height: 10rem;
@@ -21,4 +21,27 @@
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+}
+
+.login-btn{
+	border: none;
+	outline: none;
+	background-color:#010001;
+	color: #fff;
+	padding: 10px;
+	width: 120px;
+	border-radius: 10px;
+	cursor: pointer;
+}
+.login-btn:hover{
+	background-color:rgba(1, 0, 1, 0.863);
+}
+
+@media screen and (max-width: 564px) {
+	.login-elementx-box{
+		padding: 10px;
+	}
+    .login-input{
+        width: 90%;
+    }
 }

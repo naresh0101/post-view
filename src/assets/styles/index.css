@@ -9,8 +9,6 @@ p{
 }
 
 /* ================== text  */
-.primary-text {}
-
 .secondary-text {
     color: #bebebe;
 }
@@ -142,4 +140,7 @@ display: flex;
 
 .main{
     margin-top: 4rem;
+}
+.w-full{
+    width: 100%;
 }
