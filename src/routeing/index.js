@@ -5,7 +5,7 @@ import Home from '../pages/home'
 import ProtectedRoutes from '../protectedRoute';
 
 const Routeing = () => {
-
+   
     return (
         <>
             <BrowserRouter>

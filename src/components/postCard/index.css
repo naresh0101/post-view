@@ -4,6 +4,9 @@
     max-width: 500px;
 }
 .posted-by-user-info-wrapper{
+    border: none;
+    outline: none;
+    background-color: transparent;
     display: flex;
     justify-content: start;
     align-items: center;
@@ -14,4 +17,8 @@
     align-items: center;
     justify-content: center;
     text-align: center;
+}
+.text-body{
+    font-size: 1em;
+    color: #fff;
 }
