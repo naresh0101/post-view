@@ -1,5 +1,5 @@
 
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import './index.css';
 
 const demouser = {
@@ -15,6 +15,12 @@ const Login = () => {
         let { name, value } = e.target
         setLoginInfo({ ...loginInfo, [name]: value })
     }
+
+    useEffect(()=>{
+        if(localStorage.getItem("token")){
+            window.location.href = '/home'
+        }
+    },[])
 
     const handleLogin = (e) => {
         e.preventDefault()
